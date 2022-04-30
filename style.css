@@ -1,0 +1,218 @@
+body
+{
+    background: radial-gradient(orange,black);
+}
+
+.cabeca
+{
+    
+    width: 100%;
+    height: 100px;
+    
+  
+}
+
+.github
+{
+ position: relative;
+ left: 1000px;
+ font-size: 30px;
+ text-transform: uppercase;
+ font-weight: bold;
+}
+
+
+
+.link
+{
+    text-decoration: none;
+    color: rgb(241, 99, 16);
+}
+
+.link:hover
+{
+
+        color:  #c78c19;
+        text-decoration: underline;
+ 
+}
+
+.logo01
+{
+    display: inline-block;
+   position: relative;
+   left: 100px;
+   top: 40px;
+   color: rgb(255, 0, 0)
+}
+
+.principal
+{
+    display: inline-block;
+    position: relative;
+}
+
+
+
+.frase
+{
+    position: relative;
+    text-align: center;
+    left: 90px;
+   top: 40px;
+}
+
+.frase p{
+    color: rgb(241, 99, 16);
+    display: inline-block;
+    position:relative;
+    right: 1000px;
+    font-size: 18px;
+    
+}
+
+.frase01
+{
+    display: block;
+    position: relative;
+    right: 200px;
+    font-size: 40px;
+    color: rgb(241, 99, 16);
+    
+}
+
+.texto
+{ 
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+
+
+.inputEntrada
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 0 20px;
+    padding: 30px 60px;
+    width: 390px;
+    height: 201px;
+    font-size: 25px;
+
+
+}
+
+.resultado
+{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+
+.inputResultado
+{
+    display: inline-block;
+    margin: 0 0 20px;
+    padding: 30px 60px;
+    width: 390px;
+    height: 201px;
+   font-size: 25px;
+    
+}
+  
+
+#paragrafo
+{
+    color: black;
+}
+    
+.botoes
+{
+    display: inline-block;
+    position: relative;
+    left: 180px;
+    top: 40px;
+}
+
+.botao01
+{
+        
+    height: 67px;
+    width: 328px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+    color:  rgb(235, 111, 10);
+    font-size: 20px;
+    
+
+ 
+
+}
+
+.botao02
+{
+    height: 67px;
+    width: 328px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+    color:  rgb(235, 111, 10);
+    font-size: 20px;
+
+}
+.botao03
+{
+    height: 67px;
+    width: 328px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+    color: rgb(235, 111, 10);
+    font-size: 20px;
+
+}
+
+.botao01:hover
+{
+    background-color: rgb(179, 179, 179);
+
+}
+
+.botao02:hover
+{
+    background-color: rgb(179, 179, 179);
+
+}
+
+.botao03:hover
+{
+    background-color: rgb(179, 179, 179);
+}
+
+#rodape 
+{
+    position: relative;
+    color:rgb(255, 115, 0); 
+    font-size: 30px;
+    top: 150px;
+    left: 200px;
+    
+}
+
+#paragrafo
+{
+    color: rgb(255, 115, 0);
+}
+
+@media screen and (max-width: 480px)
+{
+    .github
+    {
+        position: absolute;
+        text-align: center;
+    }
+}

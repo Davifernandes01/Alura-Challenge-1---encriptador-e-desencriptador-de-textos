@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/EBGK2oya_400x400.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+ 
+    <title>Challenge 01 - Alura</title>
+</head>
+<body>
+
+    <header class="cabeca">    
+       <div class="logo01">
+              <img src="Vector-laranja.png" alt="logo-alura" class="logo">
+              
+       </div>  
+          <p class="github"><a href="https://github.com/daviXhippo" target="_blank" rel="external" class="link">GITHUB</a></p>
+    </header>
+        <main class="principal">
+            
+                <section class="frase">
+                  
+                         <div class="texto">
+                           <textarea type="text" class="inputEntrada" placeholder="digite aqui seu texto" onkeyup="value=value.replace(/[^\a-\z\u4E00-\u9FA5\ ]/g,'')"
+                           onpaste="value=value.replace(/[^\a-z\u4E00-\u9FA5\ ]/g,'')"
+                           oncontextmenu="value=value.replace(/[^\a-\z\u4E00-\u9FA5\ ]/g,'')"></textarea>
+                         </div>
+                            <div class="resultado">
+                                <textarea id="" cols="30" rows="10" class="inputResultado" placeholder="aqui sai o resultado" style="resize: none" ></textarea>
+                                
+                                <p id="paragrafo">obs:apenas letras minúsculas e sem acentos</p>
+                            </section>   
+
+                </div>
+            
+ 
+            <div class="botoes">
+                 <button class="botao01">Criptografar</button>
+                    <button class="botao02">descriptografar</button>
+                <button class="botao03">copiar</button>
+            </div>
+
+            <script src="criptografar.js"></script>
+
+            <footer>
+
+                    <p  id="rodape">&copy; Feito por Davi Fernandes - projeto ONE Alura/Oracle</p>
+
+            </footer>
+
+        </main>
+         
+        
+        
+   
+</body>
+</html>
